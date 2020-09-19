@@ -191,7 +191,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     librmnetctl \
-    rmnetcli
+    rmnetcli \
+    libaudioclient_shim
     
 # Audio
 PRODUCT_PACKAGES += \
@@ -290,7 +291,7 @@ PRODUCT_PACKAGES += \
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8992
-    
+  
 # Light HAL
 PRODUCT_PACKAGES += \
     lights.bullhead \
