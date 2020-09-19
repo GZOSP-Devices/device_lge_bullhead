@@ -291,7 +291,11 @@ PRODUCT_PACKAGES += \
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8992
-  
+    
+# libcutils
+PRODUCT_PACKAGES += \
+    libcutils_shim
+        
 # Light HAL
 PRODUCT_PACKAGES += \
     lights.bullhead \
