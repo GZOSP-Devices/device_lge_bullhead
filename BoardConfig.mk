@@ -180,7 +180,6 @@ TARGET_FS_CONFIG_GEN += device/lge/bullhead/config.fs
 
 # Shims
 TARGET_LD_SHIM_LIBS := \
-    /system/bin/ATFWD-daemon|libcutils_shim.so \
     /system/vendor/lib64/libcne.so|libcutils_shim.so \
     /system/vendor/lib64/libril-qc-qmi-1.so|libaudioclient_shim.so
 

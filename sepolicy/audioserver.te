@@ -1,2 +1,1 @@
 allow audioserver kernel:system { module_request };
-allow audioserver atfwd_exec:file { read getattr };
